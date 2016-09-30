@@ -60,7 +60,7 @@ var dashboard = new ParseDashboard({
             "appName": "MyApp"
         }
     ]
-});
+},true);
 app.use('/dashboard', dashboard);
 
 
