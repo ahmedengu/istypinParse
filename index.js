@@ -59,8 +59,13 @@ var dashboard = new ParseDashboard({
             "masterKey": "master",
             "appName": "MyApp"
         }
+    ], "users": [
+        {
+            "user": "admin",
+            "pass": "123456789"
+        }
     ]
-},true);
+}, true);
 app.use('/dashboard', dashboard);
 
 
